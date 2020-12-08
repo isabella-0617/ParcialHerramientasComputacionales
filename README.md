@@ -41,6 +41,7 @@ El algoritmo desarrollado, realiza procesos de validación por cada entrada por 
 4. Verificación de descuento: Se verifica si el rol es estudiante o profesor para realizar el descuento según corresponda.
 
 Como se puede observar, el código que se ingresa no requiere validación ya que no se especifica que deba ser solo de caracter numérico por lo que la entrada admitirá un valor alfanumérico.
+___
 
 ### Criterios de validación
 Los criterios de evaluación de entrada se realizaron mediante el uso de funciones como *isletter(A)* la cual retorna un vector con valores 1 o 0 marcando las posiciones en las que la variable 'A' contenga texto. Por ejemplo si *A = 32H* la función retornará: {[0 0 1]} si A fuera un valor numérico el vector resultante sería un vector de ceros por lo que si sumamos cada entrada del vector debería dar como resultado el número '0' por esto, la validación se hace por medio del condicional *if* y la función *sum(isletter(A))* para comprobar si el valor de esta suma es cero y continuar con el código pero si el valor no corresponde a cero, el programa le pedirá nuevamente al susuario que escoja una opción válida.
