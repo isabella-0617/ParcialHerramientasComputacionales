@@ -1,0 +1,6 @@
+1. Que tipo de errores se presentaron o se pueden presentar con su implementación al
+problema?
+error de sintaxis en los signos de comparación y en la función utilizada para comparar cadena de caracteres, se utilizó una comparación lógica "if" con signos "==" y la forma correcta de hacerlo era usando la función strcomp(s1,s2).
+
+2. Que estrategias podría usar para solucionar estos errores?
+El uso de la funcion ischar(A) para comprobar que la clase de la variable a comparar era de tipo char y poder usar la función correspondiente a este tipo de comparación.
